@@ -9,7 +9,7 @@ test('renders job info table header', () => {
   expect(tableHeaderUserInfo).toHaveTextContent('Job Info');
 });
 
-xtest('toMatch snapshot', () => {
+test('toMatch snapshot', () => {
   const tree = renderer.create(<MTable />);
   expect(tree).toMatchSnapshot();
 });
