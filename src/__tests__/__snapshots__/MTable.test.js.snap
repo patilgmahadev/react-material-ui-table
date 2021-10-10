@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toMatch snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiTableContainer-root makeStyles-tableContainer-8 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <table
+    aria-label="simple table"
+    className="MuiTable-root"
+    role={null}
+    sx={
+      Object {
+        "minWidth": 650,
+      }
+    }
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head makeStyles-tableHeaderCell-9"
+          data-testid="user-info-test-id"
+          scope="col"
+        >
+          User Info
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head makeStyles-tableHeaderCell-9"
+          data-testid="job-info-test-id"
+          scope="col"
+        >
+          Job Info
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head makeStyles-tableHeaderCell-9"
+          scope="col"
+        >
+          Joining Date
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head makeStyles-tableHeaderCell-9"
+          scope="col"
+        >
+          Status
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-2"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-10"
+              >
+                <img
+                  alt="Kerry Waters"
+                  className="MuiAvatar-img"
+                  src="."
+                />
+              </div>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-10"
+            >
+              <p
+                className="MuiTypography-root makeStyles-name-11 MuiTypography-body1"
+              >
+                Kerry Waters
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Matilda.Glover@hotmail.com
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                508-890-5278 x95750
+              </p>
+            </div>
+          </div>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+          >
+            Internal Brand Planner
+          </h6>
+          <p
+            className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            Buckridge, Gottlieb and Franecki
+          </p>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          2/16/2021
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <p
+            className="MuiTypography-root makeStyles-status-12 MuiTypography-body1"
+            style={
+              Object {
+                "backgroundColor": "green",
+              }
+            }
+          >
+            Active
+          </p>
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-2"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-10"
+              >
+                <img
+                  alt="Lindsay Lesch"
+                  className="MuiAvatar-img"
+                  src="."
+                />
+              </div>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-10"
+            >
+              <p
+                className="MuiTypography-root makeStyles-name-11 MuiTypography-body1"
+              >
+                Lindsay Lesch
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Jerrell_Schuppe4@yahoo.com
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                517.484.1349
+              </p>
+            </div>
+          </div>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+          >
+            Legacy Accounts Analyst
+          </h6>
+          <p
+            className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            Jacobson LLC
+          </p>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          1/1/2021
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <p
+            className="MuiTypography-root makeStyles-status-12 MuiTypography-body1"
+            style={
+              Object {
+                "backgroundColor": "orange",
+              }
+            }
+          >
+            Blocked
+          </p>
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-2"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-10"
+              >
+                <img
+                  alt="Dr. Rodolfo White"
+                  className="MuiAvatar-img"
+                  src="."
+                />
+              </div>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-10"
+            >
+              <p
+                className="MuiTypography-root makeStyles-name-11 MuiTypography-body1"
+              >
+                Dr. Rodolfo White
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Kaela_Tillman@hotmail.com
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                855-522-8438 x02938
+              </p>
+            </div>
+          </div>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+          >
+            Direct Infrastructure Designer
+          </h6>
+          <p
+            className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            Von LLC
+          </p>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          2/8/2021
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <p
+            className="MuiTypography-root makeStyles-status-12 MuiTypography-body1"
+            style={
+              Object {
+                "backgroundColor": "green",
+              }
+            }
+          >
+            Active
+          </p>
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-2"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-10"
+              >
+                <img
+                  alt="Timothy Jacobs"
+                  className="MuiAvatar-img"
+                  src="."
+                />
+              </div>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-10"
+            >
+              <p
+                className="MuiTypography-root makeStyles-name-11 MuiTypography-body1"
+              >
+                Timothy Jacobs
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Kamron.Parisian@hotmail.com
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                1-741-500-9622 x93290
+              </p>
+            </div>
+          </div>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+          >
+            Internal Creative Officer
+          </h6>
+          <p
+            className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            Boyle, Morar and Will
+          </p>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          7/23/2021
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <p
+            className="MuiTypography-root makeStyles-status-12 MuiTypography-body1"
+            style={
+              Object {
+                "backgroundColor": "blue",
+              }
+            }
+          >
+            Pending
+          </p>
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-2"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-10"
+              >
+                <img
+                  alt="Phil Wolf"
+                  className="MuiAvatar-img"
+                  src="."
+                />
+              </div>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-10"
+            >
+              <p
+                className="MuiTypography-root makeStyles-name-11 MuiTypography-body1"
+              >
+                Phil Wolf
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Lance.Collier39@yahoo.com
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                (504) 374-1478
+              </p>
+            </div>
+          </div>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+          >
+            Corporate Accountability Specialist
+          </h6>
+          <p
+            className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            Altenwerth - Beahan
+          </p>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          8/19/2021
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <p
+            className="MuiTypography-root makeStyles-status-12 MuiTypography-body1"
+            style={
+              Object {
+                "backgroundColor": "blue",
+              }
+            }
+          >
+            Pending
+          </p>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot
+      className="MuiTableFooter-root"
+      role={null}
+    >
+      <div
+        className="MuiTablePagination-root"
+      >
+        <div
+          className="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+        >
+          <div
+            className="MuiTablePagination-spacer"
+          />
+          <p
+            className="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+          >
+            Rows per page:
+          </p>
+          <div
+            className="MuiInputBase-root MuiTablePagination-input MuiTablePagination-selectRoot"
+            onClick={[Function]}
+          >
+            <div
+              aria-haspopup="listbox"
+              className="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              5
+            </div>
+            <input
+              aria-hidden={true}
+              className="MuiSelect-nativeInput"
+              onAnimationStart={[Function]}
+              onChange={[Function]}
+              tabIndex={-1}
+              value={5}
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+          <p
+            className="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+          >
+            1-5 of 14
+          </p>
+          <div
+            className="MuiTablePagination-actions"
+          >
+            <button
+              aria-label="Previous page"
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+              disabled={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={-1}
+              title="Previous page"
+              type="button"
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button
+              aria-label="Next page"
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              title="Next page"
+              type="button"
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </tfoot>
+  </table>
+</div>
+`;

@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders user info table header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const tableHeaderUserInfo = screen.getByTestId('user-info-test-id');
+  expect(tableHeaderUserInfo).toBeInTheDocument();
+  expect(tableHeaderUserInfo).toHaveTextContent('User Info');
 });
