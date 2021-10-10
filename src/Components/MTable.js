@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 const USERS = [],
   STATUSES = ["Active", "Pending", "Blocked"];
 
-for (let i = 0; i < 14; i++) {
+for (let i = 0; i < 6; i++) {
   USERS[i] = {
     name: faker.name.findName(),
     email: faker.internet.email(),
