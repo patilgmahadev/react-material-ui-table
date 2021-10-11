@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import MTable from '../Components/MTable';
 
@@ -11,12 +12,14 @@ jest.mock('@material-ui/core/TablePagination', () => {
             <button
       type="button"
       data-testid="TablePagination-onPageChange" 
+      onClick={cprops.onPageChange}
     >
         onPageChange
     </button>
     <button
       type="button"
-      data-testid="TablePagination-onRowsPerPageChange" 
+      data-testid="TablePagination-onRowsPerPageChange"
+      onClick={cprops.onRowsPerPageChange}
     >
         onRowsPerPageChange
     </button>
@@ -29,17 +32,16 @@ jest.mock('@material-ui/core/TablePagination', () => {
 test('renders job info table header', () => {
   render(<MTable />);
   const tableHeaderUserInfo = screen.getByTestId('job-info-test-id');
-  expect(tableHeaderUserInfo).toBeInTheDocument();
-  expect(tableHeaderUserInfo).toHaveTextContent('Job Info');
+  expect(tableHeaderUserInfo.textContent).toBe('Job Info');
 });
 
 
 test('handle pagination event', () => {
   render(<MTable />);
   const onPageChange = screen.getByTestId('TablePagination-onPageChange');
-  expect(onPageChange).toBeInTheDocument();
+  fireEvent.click(onPageChange);
   const onRowsPerPageChange = screen.getByTestId('TablePagination-onRowsPerPageChange');
-  expect(onRowsPerPageChange).toBeInTheDocument();
+  fireEvent.click(onRowsPerPageChange);
 });
 
 // working but need take latest snapshot whenever run due to date. hence skipped

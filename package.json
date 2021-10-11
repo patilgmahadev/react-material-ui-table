@@ -17,8 +17,24 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --silent",
+    "test:jest": "jest --watchAll",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80
+      }
+    },
+    "coverageReporters": [
+      "lcov"
+    ],
+    "coverageDirectory": "./output/coverage/",
+    "testTimeout": 100
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8"
   }
 }
